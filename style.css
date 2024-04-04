@@ -19,6 +19,17 @@
     font-style: normal;
     }
 
+@media (max-width: 768px) {
+        .content {
+            padding: 10px;
+        }
+    
+        button {
+            font-size: 14px;
+            padding: 8px 15px;
+        }
+    }
+
 body {
     font-family: 'Pretendard-Regular', sans-serif;
     margin: 20px;
@@ -81,7 +92,7 @@ h1 {
 }
 
 #redoButton, #shareButton {
-    margin-top: 20px; /* 버튼과 정사각형 박스 사이의 공간 */
+    margin-top: 40px; /* 버튼과 정사각형 박스 사이의 공간 */
     cursor: pointer;
     padding: 10px 20px;
     font-size: 24px;
@@ -114,3 +125,4 @@ button {
     display: flex;
     justify-content: center; /* 가로 방향으로 가운데 정렬 */
 }
+

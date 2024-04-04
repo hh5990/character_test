@@ -131,6 +131,7 @@ function redoTest() {
     // '다시하기' 버튼을 숨기고 '결과 보기' 버튼을 다시 표시
     document.getElementById("viewResultsButton").style.display = 'block';
     document.getElementById("redoButton").style.display = 'none';
+    document.getElementById("shareButton").style.display = 'none';
 
     // 결과 영역 숨기기 (옵션)
     document.getElementById("results").style.display = 'none';
